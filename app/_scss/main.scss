@@ -301,9 +301,9 @@ a, a:hover {
 .dropdown-menu>li>a,
 .dropdown-header{
     font-size: 12px;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 400;
 }
 .dropdown-header{
     color: rgba(0,0,0,0.4);
@@ -324,4 +324,5 @@ a, a:hover {
 .navbar-default .navbar-brand {
     color:rgba(0,0,0,0.8);
     font-weight:bold;
+    letter-spacing: -0.04em;
 }
