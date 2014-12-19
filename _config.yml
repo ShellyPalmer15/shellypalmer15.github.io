@@ -28,3 +28,4 @@ markdown: rdiscount
 #   extensions: []
 
 pygments: true
+excerpt_separator: "<!-- more -->"
