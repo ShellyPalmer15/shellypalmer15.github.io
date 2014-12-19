@@ -1,3 +1,8 @@
+*,body,html{
+    -webkit-font-smoothing: antialiased;
+    font-smoothing:antialiased;
+}
+
 body {
     padding-top: 50px;
     font-size: 17px;
@@ -289,6 +294,33 @@ a, a:hover {
     }
 
 }
+.navbar-default{
+    background-color: rgba(255,255,255,0.95);
+}
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu>li>a,
+.dropdown-header{
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.dropdown-header{
+    color: rgba(0,0,0,0.4);
+}
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu>li>a,{
+    color:rgba(0,0,0,0.6);
+    &:hover{
+          color:rgba(0,0,0,0.8);
+    }
+}
+.dropdown-menu{
+    border:none;
+    border-radius:2px;
+
+}
+
 .navbar-default .navbar-brand {
     color:rgba(0,0,0,0.8);
     font-weight:bold;
