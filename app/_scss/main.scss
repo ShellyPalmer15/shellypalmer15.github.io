@@ -8,7 +8,7 @@ body {
     font-size: 17px;
     width: 100%;
     margin: 0;
-    font-family: "Helvetica Neue";
+    font-family: "Open Sans";
     // margin-bottom: 60px;
 }
 footer {
@@ -295,12 +295,12 @@ a, a:hover {
 
 }
 .navbar-default{
-    background-color: rgba(255,255,255,0.95);
+    background-color: rgba(255,255,255,0.99);
 }
 .navbar-default .navbar-nav>li>a,
 .dropdown-menu>li>a,
 .dropdown-header{
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: .2em;
     text-transform: uppercase;
     font-weight: normal;
