@@ -6,14 +6,17 @@ title: Trend Report
          <div class="container-fluid">
             <div class="jumbo-text">
                 <h1 class="hero">2015 CE Trend Report</h1>
-                <h3>What's new, what's next and what it means.</h3>
             </div>
         </div>
     </header>
 <div class="container container-small">
 {% for post in site.posts %}
 		{% if post.category == "trend" %}
-		<h1><a href="{{post.url}}">{{post.title}}</a></h1>
+        <div class="card">
+            <div class="card-inner">
+                <h2 class="text-center"><a href="{{post.url}}">{{post.title}}</a></h2>
+            </div>
+        </div>
 		{% endif%}
 {% endfor %}
 </div>
