@@ -2,34 +2,39 @@
 layout: default 
 title: Featured Exhibits
 ---
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            
-            <h1>Featured Exhibits</h1> 
-                <section id="container"  class="postList">
+<div class="home">
+    <header class="jumbo jumbo--trends">
+         <div class="container container-small">
+            <div class="jumbo-text">
+                <h1 class="hero">Featured Exhibits</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container container-small">     
+                <section class="cardList">
                 {% for post in site.posts %}
+                {% if post.category != "trend" and post.category !="bhg"  %}
 
-                <article class="panel panel-default panelPost">
-                    <div class="panel-body  ">
-                        <!-- <time>{{ post.date | date_to_string }}</time> -->
-                        <a class=" panelPost-body"href="{{ post.url }}">
-                            <img src="{{post.image }}" class="img-responsive" alt="{{post.image-alt}}">
-                            <h2>{{ post.title }}</h2>
-                            <p>
+                <article class="card">
+                    <div class="card-inner">
+                        <div class="grid">
+                            <div class="col-1-3">
+                                <img src="{{ post.image }}" class="card-img img-responsive" alt="{{post.image-alt}}">
+                            </div>
+                            <div class="col-2-3">
+                                <h2>{{ post.title }}</h2>
+                                <p>
                                 {{ post.content | strip_html | truncatewords:20 }}
-                            </p>
-                        </a>
-                        <!-- <ul class="list-inline">
-                            {% for tag in post.tags %}
-                            <li class="inline archive_list"><a class="meta meta-tag" href="/tag/{{ tag }}">{{ tag }}</a>
-                            </li>
-                            {% endfor %}
-                        </ul> -->
+                                </p>
+                                 <a class="btn btn-primary btn-sm" href="{{post.url}}">Read More</a>
+                            </div>
+                        </div>
                     </div>
                 </article>
+
+                {% endif %}
                 {% endfor %}
-            </section>
+                </section>
         </div>
     </div>
 </div>
