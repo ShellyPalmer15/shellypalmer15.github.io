@@ -2,21 +2,23 @@
 layout: default
 title: Trend Report
 ---
-<header class="jumbo jumbo--trends">
-         <div class="container-fluid">
-            <div class="jumbo-text">
-                <h1 class="hero">2015 CE Trend Report</h1>
+<div class="home">
+    <header class="jumbo">
+             <div class="container container-small">
+                <div class="jumbo-text">
+                    <h1 class="hero">2015 CE Trend Report</h1>
+                </div>
             </div>
-        </div>
-    </header>
-<div class="container container-small">
-{% for post in site.posts %}
-		{% if post.category == "trend" %}
-        <div class="card">
-            <div class="card-inner">
-                <h2 class="text-center"><a href="{{post.url}}">{{post.title}}</a></h2>
+        </header>
+    <div class="container container-small">
+    {% for post in site.posts %}
+    		{% if post.category == "trend" %}
+            <div class="card">
+                <div class="card-inner">
+                    <h2 class=""><a href="{{post.url}}">{{post.title}}</a></h2>
+                </div>
             </div>
-        </div>
-		{% endif%}
-{% endfor %}
+    		{% endif%}
+    {% endfor %}
+    </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: trend
-title:  "Wearables"
+title:  "Wearables" 
 date:   2014-12-17
 category: trend
 ---

@@ -1,0 +1,28 @@
+---
+layout: default
+title: Better Homes and Gardens Editors' Choice 2015 Innovation Products List
+---
+<div class="home">
+    <header class="jumbo jumbo--bhg">
+        <div class="container container-small">
+            <div class="jumbo-text">
+                <h4>Better Homes and Gardens</h4> 
+                <h1>Editors' Choice 2015 Innovation Products List<h1>
+                <p>Technology for technology's sake? Not for us. To be of benefit, a technology needs to solve common problems, save energy and money, and help us be efficient with our time. Because many home products are longer-term purchases, an innovation should have value and newness, but also popularity so as to avoid being a flash in the pan. Oh, and it should be well styled, too. The products on our Editors' Choice list meet those criteria while remaining simple to use and easy to incorporate into our daily routines.</p>
+            </div>
+        </div>
+    </header>
+    <div class="container container-small">
+    {% for post in site.posts %}
+    		{% if post.category == "bhg" %}
+            <div class="card">
+                
+                <div class="card-inner">
+                    <h2 class=""><a href="{{post.url}}">{{post.title}}</a></h2>
+                    <img src="{{ post.image }}"  alt="{{post.title}}" class="img-bhg img-responsive center-block">
+                </div>
+            </div>
+    		{% endif%}
+    {% endfor %}
+    </div>
+</div>
