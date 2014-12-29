@@ -454,7 +454,6 @@ module.exports = function(grunt) {
                 'uncss',
                 'autoprefixer:dist',
                 'cssmin',
-                'cssmin',
                 'uglify',
                 // 'imagemin',
                 'svgmin',

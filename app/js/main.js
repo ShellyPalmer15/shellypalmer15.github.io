@@ -4,7 +4,6 @@ $(document).ready(function() {
     this.style.opacity = 1;
   });
 });
-});
 
 (function() {
     'use strict';
@@ -18,5 +17,3 @@ $(document).ready(function() {
         document.querySelector('head').appendChild(msViewportStyle)
     }
 })();
-
-

@@ -77,4 +77,4 @@
 
   };
 
-})(window.jQuery || window.Zepto);
+})
