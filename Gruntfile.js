@@ -164,6 +164,16 @@ module.exports = function(grunt) {
                         }
                     }
                   },
+                  uncss: {
+                      dist: {
+                        options: {
+                          stylesheets: ['../.tmp/concat/css/main.css']
+                        },
+                        files: {
+                          '.tmp/concat/css/main.css': ['app/**/*.html']
+                        }
+                      }
+                    },
                     autoprefixer: {
                         options: {
                             browsers: ['last 2 versions']
@@ -441,10 +451,12 @@ module.exports = function(grunt) {
                 'concurrent:dist',
                 'useminPrepare',
                 'concat',
+                'uncss',
                 'autoprefixer:dist',
                 'cssmin',
+                'cssmin',
                 'uglify',
-                'imagemin',
+                // 'imagemin',
                 'svgmin',
                 'filerev',
                 'usemin',
