@@ -133,6 +133,26 @@ blockquote{
     background:url("/img/bg--bhg.png") no-repeat center left;
     background-size: cover;
 }
+.jumbo--post{
+    margin:0 auto;
+    height:240px;
+    max-width:800px;
+    background-size: cover;
+}
+.jumbo-profile-img{
+    width:100%;
+    width:100px;
+    height:100px;
+    border:2px solid #fff;
+}
+.jumbo-profile-title{
+    color:#fff;
+    margin-top:0;
+    margin-bottom:10px;
+    padding:0;
+    line-height:1em;
+    font-size: 36px;
+}
 .btn-primary{
     background-color: $blue;
     border:none;
@@ -145,6 +165,10 @@ blockquote{
     width:100%;
     margin:0 auto;
     padding:20px 0;
+}
+.grid.jumbo-grid {
+    padding-top:198px;
+    background:transparent;
 }
 .home{
     background-color: #eee;
@@ -201,6 +225,49 @@ blockquote{
         font-size:18px;
     }
 }
+.card-icon{
+    padding:20px;
+}
+.card-btn{
+    text-align: center;
+     font-size: 30px;
+     margin:0 auto;
+}
+.card-profile{
+    margin-top:80px;
+}
+.card-title{
+    color:$darkBlue;
+}
+.card-subtitle{
+    font-size:16px;
+}
+.btn-fb{
+    display: block;
+    margin:20px 0;
+    background: #fff;
+     border-radius: 3px;
+     
+    .btn-group{
+        width:100%;
+        border: 1px solid;
+        border-color: #e9eaed #dfe0e4 #d0d1d5;
+        border-radius: 3px;
+
+    }
+    .btn{
+        border:0;
+    }
+    .btn-half{
+        width: 50%;
+        position: relative;
+        border-radius: 3px;
+        &:first-child{
+            border-right: 1px solid #e9eaed;
+        }
+    
+    }
+}
 
 @media(min-width:480px){
     .card .card-inner{
@@ -240,7 +307,7 @@ blockquote{
             transition: all .3s;
              border-radius: 3px;
         }
-        .card .subtitle{
+        .card .card-subtitle{
             max-width:15em;
 
         }
@@ -277,7 +344,6 @@ article.panelPost{
 $pad: 20px;
 
 .grid {
-  background: white;
   margin: 0 0 $pad 0;
   
   &:after {
@@ -290,7 +356,7 @@ $pad: 20px;
 
 [class*='col-'] {
   float: left;
-  padding-right: 0;
+  padding-right: 10px;
   .grid &:last-of-type {
     padding-right: 0;
   }
@@ -313,6 +379,15 @@ $pad: 20px;
     }
     .col-1-8 {
       width:100%;
+    }
+    .col-2-3-xs {
+      width: 66.66%;
+    }
+    .col-1-3-xs {
+      width: 33.33%;
+    }
+    .col-1-2-xs {
+      width: 50%;
     }
 @media only screen and  (min-width:480px) {
     .col-1-1{
@@ -356,3 +431,8 @@ $pad: 20px;
 .green{
     color: $green;  
 }
+.lazy {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+} 
+

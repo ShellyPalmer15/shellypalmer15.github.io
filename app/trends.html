@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Trend Report
+title: Shelly Palmer 2015 CE Trend Report
 ---
 <div class="home">
     <header class="jumbo">
              <div class="container container-small">
                 <div class="jumbo-text">
+                    <h4>Shelly Palmer</h4>
                     <h1 class="hero">2015 CE Trend Report</h1>
+                    <p>Featuring special sections by Better Homes & Gardens and Magisto.</p>
                 </div>
             </div>
         </header>
@@ -15,10 +17,30 @@ title: Trend Report
     		{% if post.category == "trend" %}
             <div class="card">
                 <div class="card-inner">
-                    <h2 class=""><a href="{{post.url}}">{{post.title}}</a></h2>
+                    <h2 class="">{{post.title}}</h2>
+                    <p class="card-subtitle" >{{post.subtitle}}</p>
+                    <a class="btn btn-primary btn-md" href="{{post.url}}">Read More</a>
+
                 </div>
             </div>
     		{% endif%}
     {% endfor %}
+    <p class="text-center">Special Sections</p>
+        <div class="card">
+            <div class="card-inner">
+                <h2>Editors' Picks</h2>
+                <p class="card-subtitle">by Better Homes & Gardens</p>
+                <a href="/bhg" class="btn btn-primary btn-md">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <h2 class="">User Generated Content</h2>
+                <p class="card-subtitle">
+                by Magisto 
+                </p>
+                <a href="/bhg" class="btn btn-primary btn-md">Read More</a>
+            </div>
+        </div>
     </div>
 </div>

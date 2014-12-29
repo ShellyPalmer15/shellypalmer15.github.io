@@ -2,6 +2,7 @@
 layout: post
 title:  "Materialise"
 image: "/img/materialise.jpg"
+cover: /img/materialise_cover.jpg
 image-alt: "Materialise logo"
 location: Sands - 72214
 website: http://www.materialise.com

@@ -2,6 +2,7 @@
 layout: post
 title:  "Matter and Form"
 image: "/img/matterandform.jpg"
+cover: /img/matterandform_cover.jpg
 image-alt: "Matter and Form logo"
 location: Sands - 72234
 website: http://www.matterandform.net
