@@ -52,8 +52,23 @@ a{
 }
 footer {
   width: 100%;
-  height: 60px;
-  background-color: #f5f5f5;
+  background-color: $darkBlue;
+}
+.footer-links{
+    color: #fff;
+    margin:40px 0;
+    ul > li{
+        padding-right:10px;
+    }
+    ul:last-child{
+        padding-right:0;
+    }
+    a{
+        color: #fff;
+    }
+}
+.footer-subscribe{
+    margin-top:40px;
 }
 .container {
     &-wide{
@@ -304,6 +319,18 @@ blockquote{
          .card--exhibits{
             background-color: #fff;
             background: url('/img/card--exhibits.jpg') no-repeat center right;
+            transition: all .3s;
+             border-radius: 3px;
+        }
+        .card--tours{
+            background-color: #fff;
+            background: url('/img/card--tours.jpg') no-repeat center right;
+            transition: all .3s;
+             border-radius: 3px;
+        }
+        .card--events{
+            background-color: #fff;
+            background: url('/img/card--events.jpg') no-repeat center right;
             transition: all .3s;
              border-radius: 3px;
         }
