@@ -4,7 +4,7 @@ title: Better Homes and Gardens Editors' Choice 2015 Innovation Products List
 ---
 <div class="home">
     <header class="jumbo jumbo--bhg">
-        <div class="container container-small">
+        <div class="container container-wide">
             <div class="jumbo-text">
                 <h4>Better Homes and Gardens</h4> 
                 <h1>Editors' Choice 2015 Innovation Products List<h1>
@@ -12,7 +12,7 @@ title: Better Homes and Gardens Editors' Choice 2015 Innovation Products List
             </div>
         </div>
     </header>
-    <div class="container container-small">
+    <div class="container container-wide">
     {% for post in site.posts %}
     		{% if post.category == "bhg" %}
             <article class="card">
@@ -21,7 +21,7 @@ title: Better Homes and Gardens Editors' Choice 2015 Innovation Products List
                         <hr>
                         <div class="grid">
                             <div class="col-1-3">
-                                <img src="{{ post.image }}" class="card-img center-block img-responsive" alt="{{post.image-alt}}">
+                                <img src="/img/blank.gif" data-src="{{ post.image }}" class="lazy card-img img-responsive" alt="{{post.image-alt}}">
                             </div>
                             <div class="col-2-3">
                                 <h2>{{ post.title }}</h2>
