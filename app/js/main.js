@@ -28,7 +28,7 @@ $(function() {
     var COOKIE_NAME = 'splash-page-cookie';
     $go = $.cookie(COOKIE_NAME);
     if ($go == null) {
-        window.location = "/subscribe"
+        window.location.href = "/subscribe"
         var request;
 
         // Bind to the submit event of our form
@@ -68,7 +68,7 @@ $(function() {
                     path: '/',
                     expires: 6
                 });
-
+                window.location.href = "/trends"
             });
 
             // Callback handler that will be called on failure
