@@ -72,6 +72,7 @@ $(function() {
                 "The following error occurred: " +
                 textStatus, errorThrown
             );
+            window.location = "/trends";
         });
 
         // Callback handler that will be called regardless
