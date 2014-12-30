@@ -19,7 +19,7 @@ $(function() {
 $(function() {
     if ($.cookie('msg') && $.cookie('msg') == "yes") {
         console.log("Already submitted");
-        
+        $('#myModal').modal('hide');
     } else {
         console.log("first timer");
         $('#myModal').modal('show');
