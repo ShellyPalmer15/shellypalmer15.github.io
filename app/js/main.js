@@ -25,14 +25,6 @@ $(function() {
     //     window.location = "/subscribe";
     //     return true;
     // }
-    var COOKIE_NAME = 'splash-page-cookie';
-    $go = $.cookie(COOKIE_NAME);
-    if ($go == null) {
-            $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });
-            window.location = "/subscribe"
-    }
-    else {
-    }
     var request;
 
     // Bind to the submit event of our form
@@ -67,9 +59,10 @@ $(function() {
         request.done(function(response, textStatus, jqXHR) {
             // Log a message to the console
             console.log("Hooray, it worked!");
-            
-            
-            
+            var COOKIE_NAME = 'splash-page-cookie';
+            $go = $.cookie(COOKIE_NAME);
+            $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });
+            window.location = "/trends";
         });
 
         // Callback handler that will be called on failure

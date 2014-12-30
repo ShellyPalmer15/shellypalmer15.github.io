@@ -3,6 +3,17 @@
 window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.js"><\/script>')
 </script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+{% if page.category == 'trend' %}
+<script>
+    $(function(){
+    var COOKIE_NAME = 'splash-page-cookie';
+    $go = $.cookie(COOKIE_NAME);
+    if ($go == null) {
+             window.location.href = "/subscribe";
+    }
+    });
+</script>
+{% endif%}
 <!-- build:js({app,.tmp}) /js/script.js -->
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
