@@ -152,24 +152,70 @@ blockquote{
 }
 .jumbo--post{
     margin:0 auto;
-    height:240px;
-    max-width:800px;
+    height:280px;
+    width:100%;
+    max-width:770px;
     background-size: cover;
 }
-.jumbo-profile-img{
-    width:100%;
-    width:100px;
-    height:100px;
-    border:2px solid #fff;
-}
-.jumbo-profile-title{
-    color:#fff;
+.card.card--cover{
     margin-top:0;
-    margin-bottom:10px;
-    padding:0;
-    line-height:1em;
-    font-size: 36px;
 }
+.grid.cover-grid{
+    padding-top:180px;
+}
+.cover-profile-img{
+    width:100%;
+    width:80px;
+    height:80px;
+    border: 3px solid;
+    border-color: #fff;
+    border-radius:50px;
+    transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cover-info{
+    padding-top: 2px;
+        .cover-title{
+        color:#fff;
+        margin-top:0;
+        margin-bottom:15px;
+        padding:0;
+        line-height:1em;
+        font-size: 28px;
+    }
+    small:first-of-type{
+        margin-top:5px;
+        margin-right:20px;
+    }
+}
+@media (min-width: 480px){
+    .grid.cover-grid{
+        padding-top: 160px;
+    }
+    .cover-profile-img{
+        border-radius:66px;
+        transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .cover-info{
+        padding-top: 7px;
+        .cover-title{
+            font-size:36px;
+        }
+    }
+    .cover-profile-img{
+        height:112px;
+        width:112px;
+    }
+}
+@media (min-width: 768px){
+    .grid.cover-grid{
+        padding-top: 150px;
+    }
+}
+.container.container-wide.container-cover{
+    width:100%;
+    padding:0;
+}
+
 .btn-primary{
     background-color: $blue;
     border:none;
@@ -183,10 +229,7 @@ blockquote{
     margin:0 auto;
     padding:20px 0;
 }
-.grid.jumbo-grid {
-    padding-top:198px;
-    background:transparent;
-}
+
 .home{
     background-color: #eee;
     height:100%;
@@ -237,9 +280,6 @@ blockquote{
     }
     p,ul,ol{
         margin:1em 0;
-    }
-    p{
-        font-size:18px;
     }
 }
 .card-icon{

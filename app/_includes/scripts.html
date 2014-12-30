@@ -7,22 +7,6 @@ window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.j
     $(window).load(function(){
         $('#myModal').modal('show');
     });
-    $('#ss-form').submit(function(e) {
-        e.preventDefault();
-        $.ajax({
-            url: "https://docs.google.com/a/shellypalmer.com/forms/d/1HtmByfzFqPkhBOMNof_OVxEy4dBawJKQcrMStcSF0o0/formResponse",
-            data: $(this).serialize(),
-            type: "POST",
-            dataType: "xml",
-            success: function(data) {
-                console.log('Submission successful');
-                $('#myModal').modal('hide')
-            },
-            error: function(xhr, status, error) {
-                console.log('Submission failed: ' + error);
-            }
-        });
-    });
 </script>
 <!-- build:js({app,.tmp}) /js/script.js -->
 <script src="/js/plugins.js"></script>

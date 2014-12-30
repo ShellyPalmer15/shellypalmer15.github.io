@@ -20,8 +20,6 @@
         }
     }
 }());
-
-// Place any jQuery/helper plugins in here.
 /**
  * jQuery Unveil
  * A very lightweight jQuery plugin to lazy load images
@@ -77,4 +75,4 @@
 
   };
 
-})
+})(window.jQuery || window.Zepto);
