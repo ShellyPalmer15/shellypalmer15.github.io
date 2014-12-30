@@ -1,13 +1,6 @@
-$(document).ready(function {
-    $("img").unveil(200, function() {
-        $(this).load(function() {
-            this.style.opacity = 1;
-        });
-    });
-});
-
-(function() {
+$(function() {
     'use strict';
+
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         var msViewportStyle = document.createElement('style')
         msViewportStyle.appendChild(
@@ -17,4 +10,9 @@ $(document).ready(function {
         )
         document.querySelector('head').appendChild(msViewportStyle)
     }
+    $("img").unveil(200, function() {
+        $(this).load(function() {
+            this.style.opacity = 1;
+        });
+    });
 })();
