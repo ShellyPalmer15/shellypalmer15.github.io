@@ -3,31 +3,51 @@
 window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.js"><\/script>')
 </script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+<!-- build:js({app,.tmp}) /js/script.js -->
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
+<!-- endbuild -->
 {% if page.category == 'trend' %}
 <script>
     $(function(){
-    var COOKIE_NAME = 'splash2';
+    var COOKIE_NAME = 'splash3';
     $go = $.cookie(COOKIE_NAME);
     if ($go == null) {
              window.location.href = "/subscribe";
     }
     });
+//     function getCookie(cname) {
+//     var name = cname + "=";
+//     var ca = document.cookie.split(';');
+//     for(var i=0; i<ca.length; i++) {
+//         var c = ca[i];
+//         while (c.charAt(0)==' ') c = c.substring(1);
+//         if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+//     }
+//     return "";
+// }
+
+// function checkCookie() {
+//     var user = getCookie("trend");
+//     if (user == "") {
+//         window.location.href = "/subscribe";
+//     }
+// }
+// checkCookie();
 </script>
 {% endif %}
 {% if page.title == 'subscribe' %}
 <script type="text/javascript">
-    var submitted=false;
-    var COOKIE_NAME = 'splash2';
+    var COOKIE_NAME = 'splash3';
     $go = $.cookie(COOKIE_NAME);
     function setCookie() {
         $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });
+         window.location = "/trends";
     }
 </script>
 {% endif %}
-<!-- build:js({app,.tmp}) /js/script.js -->
-<script src="/js/plugins.js"></script>
-<script src="/js/main.js"></script>
-<!-- endbuild -->
 
 <script type="text/javascript">
 (function(w, d, t, u, n, s, e) {
