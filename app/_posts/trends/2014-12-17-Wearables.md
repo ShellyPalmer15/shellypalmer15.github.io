@@ -8,7 +8,7 @@ category: trend
 Large variation in projected shipments from 111.9 million units (IDC), 110mm 
 ##Smartwatches
 - The Apple Watch will account for 40% of smartwatch shipments in 2015 and reach a peak 48% share in 2017. 
-- 35% CAGR over the next five years, 148 million units shipped in 2019. Source: [Business Insider](http://finance.yahoo.com/news/wearable-computing-market-report-growth-192528241.html)
+- 35% CAGR over the next 5 years, 148 million units shipped in 2019. Source: [Business Insider](http://finance.yahoo.com/news/wearable-computing-market-report-growth-192528241.html)
 
 Smartwatches are going to be great, but they aren’t here yet. The biggest flaw is and will continue to be battery life; a smartwatch just another thing you need to charge before you go to bed every night. If you start running apps like Run Keeper to track a morning workout, you’ll won’t be showing off your flashy timepiece at cocktail party that night. 
 
