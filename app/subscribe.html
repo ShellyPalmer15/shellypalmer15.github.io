@@ -23,13 +23,14 @@ function formvalidation(thisform){with(thisform){if(emailvalidation(email,"Pleas
 <form onsubmit="formvalidation(this)" method="post" target="hidden_iframe2" name="subform" action="http://list.shellypalmer.com/subscriber/optIn.php" autocomplete="off">
 <input type="hidden" name="idGroup" value="1">
 <table border="0" cellpadding="5" cellspacing="0">
-<tbody><tr><td>Email:</td><td><input type="text" name="email" value="" onchange="emailvalidation(this,'Invalid Email');"></td></tr>
-<tr><td>Name:</td><td><input type="text" id="name" name="name" value=""></td></tr>
+<tbody>
+<tr><td>First Name:</td><td><input type="text" id="name" name="name" value=""></td></tr>
 <tr><td>Last name:</td><td><input type="text" name="lastname" value=""></td></tr>
 <tr><td>Company:</td><td><input type="text" name="subcompany" value=""></td></tr>
 <tr><td>Title:</td><td><input type="text" name="pcustomsubfield1" id="pcustomsubfield1" value=""></td></tr>
+<tr><td>Email:</td><td><input type="text" name="email" value="" onchange="emailvalidation(this,'Invalid Email');"></td></tr>
 <input type="hidden" name="idlist[]" value="65"><tr><td>&nbsp;</td><td><span id="Error" style="color:red;display:none;"></span></td></tr>
-<tr><td>&nbsp;</td><td align="left"><input type="submit" value="Subscribe"></td></tr>
+<tr><td>&nbsp;</td><td align="left"><input class="btn btn-primary" type="submit" value="Submit"></td></tr>
 </tbody></table>
 </form>
 </div>
