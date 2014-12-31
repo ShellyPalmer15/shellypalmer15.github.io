@@ -5,6 +5,8 @@ subtitle: Smartwatches, fitness trackers, and clothing
 date:   2014-12-18
 category: trend
 ---
+
+
 Large variation in projected shipments from 111.9 million units (IDC), 110mm 
 ##Smartwatches
 - The Apple Watch will account for 40% of smartwatch shipments in 2015 and reach a peak 48% share in 2017. 
