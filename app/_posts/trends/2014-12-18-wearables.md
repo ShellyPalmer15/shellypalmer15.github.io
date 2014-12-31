@@ -2,7 +2,7 @@
 layout: trend
 title:  "Wearables"
 subtitle: Smartwatches, fitness trackers, and clothing 
-date:   2014-12-17
+date:   2014-12-18
 category: trend
 ---
 Large variation in projected shipments from 111.9 million units (IDC), 110mm 
