@@ -1,62 +1,63 @@
 --- 
 layout: default 
-title: Subscribe
+title: subscribe
 ---
 <div class="container container-small" style="">
 <h3 class="text-center">Please enter your information to access the report</h3>
-<form id="foo" class="form-horizontal" style="margin:40px 0;">
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
+    onload="if(submitted) {setCookie();window.location='/trends';}"></iframe>
+          <form class="form-horizontal" style="margin-top:40px;" action="https://docs.google.com/a/shellypalmer.com/forms/d/1HtmByfzFqPkhBOMNof_OVxEy4dBawJKQcrMStcSF0o0/formResponse" method="post" target="hidden_iframe" 
+    onsubmit="submitted=true;">
                         <fieldset>
                             <!-- Text input-->
                             <div class="form-group">
-                                <label class="col-xs-4 control-label" for="first">First Name</label>
+                                <label class="col-xs-4 control-label" for="entry_1578147343">First Name</label>
                                 <div class="col-xs-4">
-                                    <input id="first" name="first" type="text" placeholder="John" class="form-control input-md" required="">
+                                    <input id="entry_1578147343" name="entry.1578147343" type="text" placeholder="John" class="form-control input-md" required="">
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-xs-4 control-label" for="entry_988965815">Last Name</label>
+                                <div class="col-xs-4">
+                                    <input id="entry_988965815" name="entry.988965815" type="text" placeholder="Appleseed" class="form-control input-md" required="">
 
                                 </div>
                             </div>
 
                             <!-- Text input-->
                             <div class="form-group">
-                                <label class="col-xs-4 control-label" for="last">Last Name</label>
+                                <label class="col-xs-4 control-label" for="entry_1396493531">Title</label>
                                 <div class="col-xs-4">
-                                    <input id="last" name="last" type="text" placeholder="Appleseed" class="form-control input-md" required="">
+                                    <input id="entry_1396493531" name="entry.1396493531" type="text" placeholder="CEO" class="form-control input-md" required="">
 
                                 </div>
                             </div>
 
                             <!-- Text input-->
                             <div class="form-group">
-                                <label class="col-xs-4 control-label" for="title">Title</label>
+                                <label class="col-xs-4 control-label" for="entry_13242624">Company</label>
                                 <div class="col-xs-4">
-                                    <input id="title" name="title" type="text" placeholder="CEO" class="form-control input-md" required="">
+                                    <input id="entry_13242624" name="entry.13242624" type="text" placeholder="Acme Inc." class="form-control input-md" required="">
 
                                 </div>
                             </div>
 
                             <!-- Text input-->
                             <div class="form-group">
-                                <label class="col-xs-4 control-label" for="company">Company</label>
+                                <label class="col-xs-4 control-label" for="entry_773080496">Email</label>
                                 <div class="col-xs-4">
-                                    <input id="company" name="company" type="text" placeholder="Acme Inc." class="form-control input-md" required="">
+                                    <input id="entry_773080496" name="entry.773080496" type="text" placeholder="john@acme.com" class="form-control input-md" required="">
 
-                                </div>
-                            </div>
-
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <label class="col-xs-4 control-label" for="email">Email</label>
-                                <div class="col-xs-4">
-                                    <input id="email" name="email" type="text" placeholder="john@acme.com" class="form-control input-md" required="">
-
-                                </div>
-                            </div>
+                                </div> </div>
                                 <!-- Button -->
                             <div class="form-group">
                                 <label class="col-xs-4 control-label" for=""></label>
                                 <div class="col-xs-4">
-                                    <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+                                    <input type="submit" id="ss-submit" name="submit" value="Submit" class="btn btn-primary">
                                 </div>
                             </div>
                         </fieldset>
                     </form>
-</div>
+                    </div>

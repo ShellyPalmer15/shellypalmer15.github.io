@@ -13,7 +13,17 @@ window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.j
     }
     });
 </script>
-{% endif%}
+{% endif %}
+{% if page.title == 'subscribe' %}
+<script type="text/javascript">
+    var submitted=false;
+    var COOKIE_NAME = 'splash-page-cookie';
+    $go = $.cookie(COOKIE_NAME);
+    function setCookie() {
+        $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });
+    }
+</script>
+{% endif %}
 <!-- build:js({app,.tmp}) /js/script.js -->
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
