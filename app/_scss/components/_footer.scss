@@ -1,0 +1,20 @@
+footer {
+  width: 100%;
+  background-color: $darkBlue;
+}
+.footer-links{
+    color: #fff;
+    margin:40px 0;
+    ul > li{
+        padding-right:10px;
+    }
+    ul:last-child{
+        padding-right:0;
+    }
+    a{
+        color: #fff;
+    }
+}
+.footer-subscribe{
+    margin-top:40px;
+}

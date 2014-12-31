@@ -27,7 +27,6 @@ body {
 h1,h2,h3,h4,h5,h6{
     margin:20px 0;
     padding: 0;
-    font-family: $fontHeadings;
     font-weight:400;
 }
 h1{
@@ -52,26 +51,12 @@ p, ul, ol{
 a{
     color:$blue;
 }
-footer {
-  width: 100%;
-  background-color: $darkBlue;
+blockquote{
+    font-weight:200;
+    line-height: 1.2em;
+    color:$darkBlue;
 }
-.footer-links{
-    color: #fff;
-    margin:40px 0;
-    ul > li{
-        padding-right:10px;
-    }
-    ul:last-child{
-        padding-right:0;
-    }
-    a{
-        color: #fff;
-    }
-}
-.footer-subscribe{
-    margin-top:40px;
-}
+
 .container {
     &-wide{
         max-width: 800px;
@@ -86,10 +71,11 @@ footer {
         max-width:640px;
     }
 }
-blockquote{
-    font-weight:200;
-    line-height: 1.2em;
-    color:$darkBlue;
+.home{
+    background-color: #eee;
+    height:100%;
+    min-height:900px;
+    width:100%;
 }
 
 
@@ -114,284 +100,12 @@ blockquote{
 .inline-i{
     margin-right: 5px;
 }
-.jumbo {
-        position: relative;
-        // height: 400px;
-        background-color: #1f242a;
-        &-text{
-             max-width: 640px;
-            // text-align: center;
-            padding:80px 0;
-            // left: 50%;
-            // margin-right: -50%;
-            // transform: translate(-50%, -50%);
-            text-shadow: rgba(0, 0, 0, .5) 0 0 10px;
-            h1 {
-                color: #fff;
-            }
-            h4{
-                color:#999;
-            }
-            p{
-                color:#eaeaea;
-                line-height:1.4em;
-            }
-        }
-        p{
-            font-size: 16px;
-            
-        }
-    }
 
-.jumbo--trends{
-   background-color: $darkBlue;
-}
-.jumbo--bhg{
-    background:url("/img/bg--bhg.png") no-repeat center left;
-    background-size: cover;
-}
-.jumbo--post{
-    margin:0 auto;
-    height:280px;
-    width:100%;
-    max-width:770px;
-    background-size: cover;
-}
-.card.card--cover{
-    margin-top:0;
-}
-.grid.cover-grid{
-    padding-top:180px;
-}
-.cover-profile-img{
-    width:100%;
-    width:80px;
-    height:80px;
-    border: 3px solid;
-    border-color: #fff;
-    border-radius:50px;
-    box-shadow: 0 2px 3px rgba(0,0,0,.05);
-    transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover{
-        transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0s;
-        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    }
-}
 
-.cover-info{
-    padding-top: 2px;
-        .cover-title{
-        color:#fff;
-        margin-top:0;
-        margin-bottom:15px;
-        padding:0;
-        line-height:1em;
-        font-size: 28px;
-    }
-    small:first-of-type{
-        margin-top:5px;
-        margin-right:20px;
-    }
-}
-@media (min-width: 480px){
-    .grid.cover-grid{
-        padding-top: 160px;
-    }
-    .cover-profile-img{
-        border-radius:66px;
-        transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .cover-info{
-        padding-top: 7px;
-        .cover-title{
-            font-size:36px;
-        }
-    }
-    .cover-profile-img{
-        height:112px;
-        width:112px;
-    }
-}
-@media (min-width: 768px){
-    .grid.cover-grid{
-        padding-top: 150px;
-    }
-}
-.container.container-wide.container-cover{
-    width:100%;
-    padding:0;
-}
 
-.btn-primary{
-    background-color: $blue;
-    border:none;
-    border-radius: 3px;
-    &:hover{
-        background-color: darken($blue,5%);
-    }
-}
-.post img{
-    width:100%;
-    margin:0 auto;
-    padding:20px 0;
-}
 
-.home{
-    background-color: #eee;
-    height:100%;
-    min-height:900px;
-    width:100%;
-}
-.card{
-    position: relative;
-    display: block;
-    margin:20px 0;
-    background: #fff;
-     border: 1px solid;
-    border-color: #e9eaed #dfe0e4 #d0d1d5;
-     border-radius: 3px;
-    &-inner{
-        padding:20px;
-        color: #333;
-    }
-    &-img{
-        // border-top-right-radius: 3px;
-        // border-top-left-radius: 3px;
-        margin-bottom:20px;
-        margin-left:auto;
-        margin-right:auto;
-        max-height:240px;
-    }
-    h1,h2,h3{
-        color: $darkBlue;
-        margin:0;
-        padding:0;
-        line-height:1.0em;
-    }
-    &-subtitle{
-        margin:1em 0;
-        padding:0;
-        color: $grayLighter;
-        font-family: $fontHeadings;
-        font-size: 18px;
-    }
-    p.lead{
-        color: $gray;
-    }
-    a{
-        margin:0;
-    }
-    &--trends{
-         background-color: #fff;
-    }
-    p,ul,ol{
-        margin:1em 0;
-    }
-}
-.card-icon{
-    padding:20px;
-}
-.card-btn{
-    text-align: center;
-     font-size: 30px;
-     margin:0 auto;
-}
-.card-profile{
-    margin-top:80px;
-}
-.card-title{
-    color:$darkBlue;
-}
-.card-subtitle{
-    font-size:16px;
-}
-.btn-fb{
-    display: block;
-    margin:20px 0;
-    background: #fff;
-     border-radius: 3px;
-     
-    .btn-group{
-        width:100%;
-        border: 1px solid;
-        border-color: #e9eaed #dfe0e4 #d0d1d5;
-        border-radius: 3px;
 
-    }
-    .btn{
-        border:0;
-    }
-    .btn-half{
-        width: 50%;
-        position: relative;
-        border-radius: 3px;
-        &:first-child{
-            border-right: 1px solid #e9eaed;
-        }
-    
-    }
-}
 
-@media(min-width:480px){
-    .card .card-inner{
-            padding:30px
-        }
-    .tag-top-stories{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: center;
-    color: #ffffff;
-    position: absolute;
-    right: -7px;
-    top: 16px;
-    width: auto;
-    z-index: 300;
-    background: url(/img/background-topstories2.png) 100% 0 no-repeat;
-    height: 41px;
-     border-radius:3px;
-    }
-    .top-stories-inner{
-        padding:0 20px;
-        font-family:$fontHeadings;
-    }
-
-}
-  @media(min-width:768px){
-        .card--trends{
-            background-color: #fff;
-            background: url('/img/card--trends.jpg') no-repeat center right;
-            transition: all .3s;
-            border-radius: 3px;
-        }
-         .card--exhibits{
-            background-color: #fff;
-            background: url('/img/card--exhibits.jpg') no-repeat center right;
-            transition: all .3s;
-             border-radius: 3px;
-        }
-        .card--tours{
-            background-color: #fff;
-            background: url('/img/card--tours.jpg') no-repeat center right;
-            transition: all .3s;
-             border-radius: 3px;
-        }
-        .card--events{
-            background-color: #fff;
-            background: url('/img/card--events.jpg') no-repeat center right;
-            transition: all .3s;
-             border-radius: 3px;
-        }
-        .card .card-subtitle{
-            max-width:15em;
-
-        }
-        .card .card-inner{
-            padding:40px
-        }
-
-    }
 
 article.panelPost{
         width:100%;
@@ -400,104 +114,27 @@ article.panelPost{
     article.panelPost{
         width:240px;
     }
-    // #container{
-    //     containerStyle: true;
-    // }
+    
 
 }
-// #container{
-//     border:1px solid red;
-//     margin:0 auto;
-// }
+
 // Components
+@import "components/jumbo";
+@import "components/card";
+@import "components/cover";
 @import "components/heroWidget";
 @import "components/navBar";
+@import "components/button";
+@import "components/footer";
+@import "components/grid";
+
+
 
 // Pages
 @import "pages/post";
 @import "pages/trends";
 
-$pad: 20px;
 
-.grid {
-  margin: 0 0 $pad 0;
-  
-  &:after {
-    /* Or @extend clearfix */
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-[class*='col-'] {
-  float: left;
-  padding-right: 10px;
-  .grid &:last-of-type {
-    padding-right: 0;
-  }
-}
-
- .col-1-1{
-        width:100%;
-    }
-    .col-2-3 {
-       width:100%;
-    }
-    .col-1-3 {
-       width:100%;
-    }
-    .col-1-2 {
-       width:100%;
-    }
-    .col-1-4 {
-       width:100%;
-    }
-    .col-1-8 {
-      width:100%;
-    }
-    .col-2-3-xs {
-      width: 66.66%;
-    }
-    .col-1-3-xs {
-      width: 33.33%;
-    }
-    .col-1-2-xs {
-      width: 50%;
-    }
-@media only screen and  (min-width:480px) {
-    .col-1-1{
-        width:100%;
-    }
-    .col-2-3 {
-      width: 66.66%;
-    }
-    .col-1-3 {
-      width: 33.33%;
-    }
-    .col-1-2 {
-      width: 50%;
-    }
-    .col-1-4 {
-      width: 25%;
-    }
-    .col-1-8 {
-      width: 12.5%;
-    }
-    .grid-pad {
-  padding: $pad 0 $pad $pad;
-  [class*='col-']:last-of-type {
-    padding-right: $pad;
-  }
-}
-[class*='col-'] {
-  float: left;
-  padding-right: $pad;
-  .grid &:last-of-type {
-    padding-right: 0;
-  }
-}
-}
 
 
 .miframe{
@@ -511,6 +148,3 @@ $pad: 20px;
   opacity: 0;
   transition: opacity .3s ease-in;
 } 
-
-/* Styles for the CoverPop.js plugin */
-

@@ -1,0 +1,122 @@
+.card{
+    position: relative;
+    display: block;
+    margin:20px 0;
+    background: #fff;
+     border: 1px solid;
+    border-color: #e9eaed #dfe0e4 #d0d1d5;
+     border-radius: 3px;
+    &-inner{
+        padding:20px;
+        color: #333;
+    }
+    &-img{
+        // border-top-right-radius: 3px;
+        // border-top-left-radius: 3px;
+        margin-bottom:20px;
+        margin-left:auto;
+        margin-right:auto;
+        max-height:240px;
+    }
+    h1,h2,h3{
+        color: $darkBlue;
+        margin:0;
+        padding:0;
+        line-height:1.0em;
+    }
+    &-subtitle{
+        margin:1em 0;
+        padding:0;
+        color: $grayLighter;
+        font-family: $fontHeadings;
+        font-size: 18px;
+    }
+    p.lead{
+        color: $gray;
+    }
+    a{
+        margin:0;
+    }
+    &--trends{
+         background-color: #fff;
+    }
+    p,ul,ol{
+        margin:1em 0;
+    }
+}
+.card-icon{
+    padding:20px;
+}
+.card-btn{
+    text-align: center;
+     font-size: 30px;
+     margin:0 auto;
+}
+.card-profile{
+    margin-top:80px;
+}
+.card-title{
+    color:$darkBlue;
+}
+.card-subtitle{
+    font-size:16px;
+}
+@media(min-width:480px){
+    .card .card-inner{
+            padding:30px
+        }
+    .tag-top-stories{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    right: -7px;
+    top: 16px;
+    width: auto;
+    z-index: 300;
+    background: url(/img/background-topstories2.png) 100% 0 no-repeat;
+    height: 41px;
+     border-radius:3px;
+    }
+    .top-stories-inner{
+        padding:0 20px;
+        font-family:$fontHeadings;
+    }
+
+}
+  @media(min-width:768px){
+        .card--trends{
+            background-color: #fff;
+            background: url('/img/card--trends.jpg') no-repeat center right;
+            transition: all .3s;
+            border-radius: 3px;
+        }
+         .card--exhibits{
+            background-color: #fff;
+            background: url('/img/card--exhibits.jpg') no-repeat center right;
+            transition: all .3s;
+             border-radius: 3px;
+        }
+        .card--tours{
+            background-color: #fff;
+            background: url('/img/card--tours.jpg') no-repeat center right;
+            transition: all .3s;
+             border-radius: 3px;
+        }
+        .card--events{
+            background-color: #fff;
+            background: url('/img/card--events.jpg') no-repeat center right;
+            transition: all .3s;
+             border-radius: 3px;
+        }
+        .card .card-subtitle{
+            max-width:15em;
+
+        }
+        .card .card-inner{
+            padding:40px
+        }
+
+    }
