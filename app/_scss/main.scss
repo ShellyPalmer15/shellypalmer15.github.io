@@ -1,4 +1,3 @@
-@import "normalize";
 @import "stylesheets/bootstrap";
 $green: #57ad68;
 $sans: "RobotoDraft","Helvetica Neue", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -134,7 +133,11 @@ article.panelPost{
 @import "pages/post";
 @import "pages/trends";
 
-
+.img-feed{
+    height: 64px;
+    width: 64px;
+    border-radius:32px;
+}
 
 
 .miframe{

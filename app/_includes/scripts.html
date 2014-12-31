@@ -6,7 +6,7 @@ window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.j
 {% if page.category == 'trend' %}
 <script>
     $(function(){
-    var COOKIE_NAME = 'splash-page-cookie';
+    var COOKIE_NAME = 'splash1';
     $go = $.cookie(COOKIE_NAME);
     if ($go == null) {
              window.location.href = "/subscribe";
@@ -17,7 +17,7 @@ window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.j
 {% if page.title == 'subscribe' %}
 <script type="text/javascript">
     var submitted=false;
-    var COOKIE_NAME = 'splash-page-cookie';
+    var COOKIE_NAME = 'spalsh1';
     $go = $.cookie(COOKIE_NAME);
     function setCookie() {
         $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });

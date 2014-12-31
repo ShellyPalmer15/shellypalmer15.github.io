@@ -141,29 +141,29 @@ module.exports = function(grunt) {
                         }]
                     }
                 },
-                // browserSync: {
-                //     server: {
-                //         bsFiles: {
-                //             src: [
-                //                 '.jekyll/**/*.html',
-                //                 '.tmp/css/**/*.css',
-                //                 '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
-                //                 '{<%= yeoman.app %>}/_bower_components/**/*.js',
-                //                 '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
-                //             ]
-                //         },
-                //         options: {
-                //             server: {
-                //                 baseDir: [
-                //                     ".jekyll",
-                //                     ".tmp",
-                //                     "<%= yeoman.app %>"
-                //                 ]
-                //             },
-                //             watchTask: true
-                //         }
-                //     }
-                //   },
+                browserSync: {
+                    server: {
+                        bsFiles: {
+                            src: [
+                                '.jekyll/**/*.html',
+                                '.tmp/css/**/*.css',
+                                '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
+                                '{<%= yeoman.app %>}/_bower_components/**/*.js',
+                                '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
+                            ]
+                        },
+                        options: {
+                            server: {
+                                baseDir: [
+                                    ".jekyll",
+                                    ".tmp",
+                                    "<%= yeoman.app %>"
+                                ]
+                            },
+                            watchTask:true
+                        }
+                    }
+                  },
                   uncss: {
                       dist: {
                         options: {
@@ -176,7 +176,7 @@ module.exports = function(grunt) {
                     },
                     autoprefixer: {
                         options: {
-                            browsers: ['last 2 versions']
+                            browsers: ['last 2 version', 'ie 9']
                         },
                         dist: {
                             files: [{
@@ -416,7 +416,7 @@ module.exports = function(grunt) {
                     'concurrent:server',
                     'autoprefixer:server',
                     'connect:livereload',
-                    // 'browserSync',
+                    'browserSync',
                     'watch'
 
                 ]);

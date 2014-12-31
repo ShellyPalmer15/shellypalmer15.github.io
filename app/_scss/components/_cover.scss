@@ -21,14 +21,14 @@
 }
 
 .cover-info{
-    padding-top: 2px;
+    padding-top: 10px;
         .cover-title{
         color:#fff;
         margin-top:0;
-        margin-bottom:15px;
+        margin-bottom:10px;
         padding:0;
         line-height:1em;
-        font-size: 28px;
+        font-size: 30px;
     }
     small:first-of-type{
         margin-top:5px;
@@ -44,7 +44,6 @@
         transition: all .2s cubic-bezier(0.4, 0, 0.2, 1);
     }
     .cover-info{
-        padding-top: 7px;
         .cover-title{
             font-size:36px;
         }
