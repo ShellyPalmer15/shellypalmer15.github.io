@@ -1,7 +1,11 @@
 .btn-primary{
-    background-color: $blue;
+    background-color: transparent;
+    color:$gray;
     border:none;
-    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+     border-radius: 0;
+     padding-left:0;
     &:hover{
         background-color: darken($blue,5%);
     }

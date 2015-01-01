@@ -3,9 +3,9 @@
     display: block;
     margin:20px 0;
     background: #fff;
-     border: 1px solid;
-    border-color: #e9eaed #dfe0e4 #d0d1d5;
-     border-radius: 3px;
+    //  border: 1px solid;
+    // border-color: #e9eaed #dfe0e4 #d0d1d5;
+    //  border-radius: 3px;
     &-inner{
         padding:15px;
         color: #333;
@@ -23,6 +23,8 @@
         margin:0;
         padding:0;
         line-height:1.0em;
+        text-transform:uppercase;
+        letter-spacing: 0.2em;
     }
     &-subtitle{
         margin:1em 0;
@@ -33,6 +35,7 @@
     }
     p.lead{
         color: $gray;
+        text-transform:uppercase;
     }
     a{
         margin:0;
@@ -78,7 +81,7 @@
     z-index: 300;
     background: url(/img/background-topstories2.png) 100% 0 no-repeat;
     height: 41px;
-     border-radius:3px;
+     // border-radius:3px;
     }
     .top-stories-inner{
         padding:0 20px;
@@ -91,25 +94,33 @@
             background-color: #fff;
             background: url('/img/card--trends.jpg') no-repeat center right;
             transition: all .3s;
-            border-radius: 3px;
+            // border-radius: 3px;
+            filter: grayscale(100%);
+            filter: gray;
         }
          .card--exhibits{
             background-color: #fff;
             background: url('/img/card--exhibits.jpg') no-repeat center right;
             transition: all .3s;
-             border-radius: 3px;
+             // border-radius: 3px;
+             filter: grayscale(100%);
+             filter: gray;
         }
         .card--tours{
             background-color: #fff;
             background: url('/img/card--tours.jpg') no-repeat center right;
             transition: all .3s;
-             border-radius: 3px;
+             // border-radius: 3px;
+             filter: grayscale(100%);
+             filter: gray;
         }
         .card--events{
             background-color: #fff;
             background: url('/img/card--events.jpg') no-repeat center right;
             transition: all .3s;
-             border-radius: 3px;
+             // border-radius: 3px;
+             filter: grayscale(100%);
+             filter: gray;
         }
         .card .card-subtitle{
             max-width:15em;
