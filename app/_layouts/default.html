@@ -14,7 +14,9 @@
     <!-- build:css({app,.tmp}) /css/main.css --> 
     <link rel="stylesheet" href="/css/main.css">
     <!-- endbuild -->
-
+    {% if page.category == 'trend' %}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    {% endif %}
     <!-- build:js({app,.tmp}) /js/head-scripts.js -->
     <!-- Replace with a custom modernizer build for production -->
     <script src="/_bower_components/modernizr/modernizr.js"></script>
