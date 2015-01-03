@@ -30,19 +30,27 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
     font-size:3em;
-    color: $blue;
+    color: $darkBlue;
 }
 h2{
     font-size: 2em;
-    color: $blue;
+    color: $darkBlue;
 }
 h3{
     font-size: 1.5em;
-    color:$blue;
+    color:$darkBlue;
 }
 h4{
     font-size: 1.25em;
     text-transform: uppercase;
+    color:$grayLight;
+}
+h4+h1,
+h1+h4,
+h2+h3,
+h2+h4,
+h4+h2{
+    margin-top:-10px;
 }
 p, ul, ol{
     color: $gray;
@@ -101,12 +109,20 @@ blockquote{
 }
 
 
-
+.embed-responsive{
+    margin:20px 0;
+}
 
 .chart {
-    height: 240px;
     width: 100%;
     margin-bottom: 0.5em;
+    font-family:$sans!important;
+}
+.chart-line{
+    height:240px;
+}
+.chart-donut{
+    height:100px;
 }
 .source{
      font-size:0.8em;

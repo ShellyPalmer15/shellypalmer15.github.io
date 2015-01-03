@@ -6,17 +6,18 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#5088f7">
    <link href='https://fonts.googleapis.com/css?family=RobotoDraft:200,300,400,500,700,400italic' rel='stylesheet' type='text/css'>
     <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-    <!-- build:css({app,.tmp}) /css/main.css --> 
-    <link rel="stylesheet" href="/css/main.css">
-    <!-- endbuild -->
     {% if page.category == 'trend' %}
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
     {% endif %}
+    <!-- build:css({app,.tmp}) /css/main.css --> 
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- endbuild -->
+
     <!-- build:js({app,.tmp}) /js/head-scripts.js -->
     <!-- Replace with a custom modernizer build for production -->
     <script src="/_bower_components/modernizr/modernizr.js"></script>
