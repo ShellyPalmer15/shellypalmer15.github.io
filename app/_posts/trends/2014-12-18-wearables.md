@@ -8,14 +8,14 @@ category: trend
 
 
 ##Smartwatches
-####Nice-to-haves, not need-to-haves
+<!-- ####Nice-to-haves, not need-to-haves -->
 Besides the fact that not everyone wants a computer strapped around their wrist,the biggest flaw is and will continue to be battery life; a smartwatch just another thing you need to charge before you go to bed every night. If you start running apps like Run Keeper to track a morning workout, you’ll won’t be showing off your flashy timepiece at cocktail party that night. 
 
 ###Apple Watch
 This won't be a slam dunk like the iPod, iPhone, or iPad. It will have a mediocre battery, Apple will limit initial supply to create more hype, and ultimately sell 2-3mm devices
 
 ##Fitness Trackers
-####Overcrowded, undifferentiated products
+<!-- ####Overcrowded, undifferentiated products -->
 While the market for fitness trackers has exploded this past year, there is a dirty little secret that most people aren’t talking about: More than half of US consumers who have owned an activity tracker no longer use it. A third of them took less than six months from unboxing the device to shoving it in a drawer or fobbing it off on a relative. This suggests the devices are more for teaching users about their habits than providing daily monitoring. After some time, people learn enough about their activity levels and eating habits to not need a device to monitor their well being. 
 
 ##Health 

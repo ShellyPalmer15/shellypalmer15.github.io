@@ -10,10 +10,10 @@
             // left: 50%;
             // margin-right: -50%;
             // transform: translate(-50%, -50%);
-            // text-shadow: rgba(0, 0, 0, .5) 0 0 10px;
+            text-shadow: rgba(0, 0, 0, .5) 0 0 10px;
             h1 {
-                // color: #fff;
-                color:$blue;
+                color: #fff;
+                // color:$blue;
             }
             h4{
                 color:#999;
@@ -21,7 +21,7 @@
             }
             p{
                 color:$darkBlue;
-                // color:#eaeaea;
+                color:#eaeaea;
                 line-height: 32px;
                 font-size: 20px;
             }
@@ -29,8 +29,9 @@
     }
 
 .jumbo--trends,
-.jumbo--tours{
-   // background-color: $darkBlue;
+.jumbo--tours,
+.jumbo--home{
+   background-color: $darkBlue;
 }
 .jumbo--bhg{
     background:url("/img/bg--bhg.png") no-repeat center left;

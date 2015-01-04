@@ -160,7 +160,7 @@ module.exports = function(grunt) {
                                     "<%= yeoman.app %>"
                                 ]
                             },
-                            watchTask:true
+                            watchTask: false
                         }
                     }
                   },
@@ -416,7 +416,7 @@ module.exports = function(grunt) {
                     'concurrent:server',
                     'autoprefixer:server',
                     'connect:livereload',
-                    'browserSync',
+                    // 'browserSync',
                     'watch'
 
                 ]);

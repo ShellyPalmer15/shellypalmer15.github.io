@@ -1,0 +1,19 @@
+.stat{
+    text-align:center;
+    padding:20px 0;
+}
+p.stat-num {
+    font-size:48px;
+    font-weight:400;
+    line-height:1em;
+    margin:0 auto;
+    padding:10px 0;
+    color:$blue;
+}
+p.stat-text{
+    padding:0;
+    max-width:10em;
+    text-align:center;
+    margin:0 auto;
+    color: $gray;
+}
