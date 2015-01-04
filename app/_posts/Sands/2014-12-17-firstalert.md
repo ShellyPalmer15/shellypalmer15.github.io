@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Alert"
-image: "/img/FirstAlert.jpg"
+image: "/img/firstalert.jpg"
 cover: /img/firstalert_cover.jpg
 image-alt: "First Alert logo"
 location: Sands - 70823

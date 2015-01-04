@@ -4,28 +4,28 @@ layout: default
 <div class="home">
 <div class="container container-small">
             <h2 class="post_title">{{page.title}}</h2> 
+            
+        <div class="card">
+            <div class="card-inner">
             {% for post in site.posts %} 
             {% for tag in post.tags %} 
-            {% if tag == page.tag %}
-            <article class="card">
-                    <div class="card-inner">
-                        <div class="grid">
-                            <div class="col-1-3">
-                                <img src="/img/blank.gif" data-src="{{ post.image }}" class="lazy card-img img-responsive" alt="{{post.image-alt}}">
-                            </div>
-                            <div class="col-2-3">
-                                <h2>{{ post.title }}</h2>
-                                <p>
-                                {{ post.content | strip_html | truncatewords:20 }}
-                                </p>
-                                 <a class="btn btn-primary btn-md" href="{{post.url}}">Read More</a>
-                            </div>
-                        </div>
+            {% if tag == page.tag %}        
+                <div class="media">
+                    <a class="media-left media-top" href="{{post.url}}">
+                        <img src="/img/blank.gif" data-src="{{ post.image }}" class="lazy img-feed" alt="{{post.image-alt}}" style="border:1px solid rgba(0,0,0,0.15);" width="80" height="80">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{post.title}}</h4>
+                        <p>{{ post.content | strip_html | truncatewords:20 }}</p>
+                        <a class="btn btn-primary btn-sm" href="{{post.url}}">Read More</a>
                     </div>
-                </article>
+                </div>
+                <hr>
             {% endif %} 
             {% endfor %} 
             {% endfor %}
+            </div>
+        </div>
     </div>
 </div>
 

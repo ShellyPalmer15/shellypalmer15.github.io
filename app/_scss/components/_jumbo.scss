@@ -1,6 +1,7 @@
 .jumbo {
         position: relative;
         // height: 400px;
+        // background-color: #1f242a;
         background-color: #1f242a;
         &-text{
              max-width: 640px;
@@ -9,7 +10,7 @@
             // left: 50%;
             // margin-right: -50%;
             // transform: translate(-50%, -50%);
-            text-shadow: rgba(0, 0, 0, .5) 0 0 10px;
+            // text-shadow: rgba(0, 0, 0, .5) 0 0 10px;
             h1 {
                 color: #fff;
             }
@@ -29,7 +30,7 @@
 
 .jumbo--trends,
 .jumbo--tours{
-   background-color: $darkBlue;
+   background-color: $blue;
 }
 .jumbo--bhg{
     background:url("/img/bg--bhg.png") no-repeat center left;
