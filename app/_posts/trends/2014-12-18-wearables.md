@@ -6,8 +6,6 @@ date:   2014-12-18
 category: trend
 ---
 
-<h3>the market is overcrowded with undifferentiated products </h3>
-
 
 ##Smartwatches
 ####Nice-to-haves, not need-to-haves

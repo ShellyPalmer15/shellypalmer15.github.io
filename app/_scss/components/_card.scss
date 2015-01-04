@@ -3,9 +3,10 @@
     display: block;
     margin:20px 0;
     background: #fff;
-     border: 1px solid;
-    border-color: #e9eaed #dfe0e4 #d0d1d5;
-     border-radius: 3px;
+    // border: 1px solid;
+    // border-color: #e9eaed #dfe0e4 #d0d1d5;
+    box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 6px rgba(0,0,0,.12);
+     border-radius: 2px;
     &-inner{
         padding:15px;
         color: #333;
@@ -78,7 +79,7 @@
     z-index: 300;
     background: url(/img/background-topstories2.png) 100% 0 no-repeat;
     height: 41px;
-     border-radius:3px;
+     border-radius:2px;
     }
     .top-stories-inner{
         padding:0 20px;
@@ -91,25 +92,25 @@
             background-color: #fff;
             background: url('/img/card--trends.jpg') no-repeat center right;
             transition: all .3s;
-            border-radius: 3px;
+            border-radius: 2px;
         }
          .card--exhibits{
             background-color: #fff;
             background: url('/img/card--exhibits.jpg') no-repeat center right;
             transition: all .3s;
-             border-radius: 3px;
+             border-radius: 2px;
         }
         .card--tours{
             background-color: #fff;
             background: url('/img/card--tours.jpg') no-repeat center right;
             transition: all .3s;
-             border-radius: 3px;
+             border-radius: 2px;
         }
         .card--events{
             background-color: #fff;
             background: url('/img/card--events.jpg') no-repeat center right;
             transition: all .3s;
-             border-radius: 3px;
+             border-radius: 2px;
         }
         .card .card-subtitle{
             max-width:15em;
