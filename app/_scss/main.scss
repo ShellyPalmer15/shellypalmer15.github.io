@@ -39,6 +39,7 @@ h2{
 }
 h3{
     // padding:28px 0 8px 0;
+    line-height:1.3em;
     font-size: 1.5em;
     color:$darkBlue;
 }
@@ -60,6 +61,11 @@ hr{
 // }
 p, ul, ol{
     color: $gray;
+    font-size:18px;
+    line-height: 1.625em;
+}
+strong{
+    color:$darkBlue;
 }
 a{
     color:$blue;
@@ -68,7 +74,10 @@ blockquote{
     font-weight:200;
     line-height: 1.2em;
     color:$darkBlue;
+    font-size:20px;
+    margin:20px 0;
 }
+
 
 .container {
     &-wide{
@@ -163,13 +172,26 @@ article.panelPost{
 @import "pages/post";
 @import "pages/trends";
 
+
+//helpers
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+//Images
 .img-feed{
     height: 64px;
     width: 64px;
     border-radius:32px;
 }
-
-
+.img-trend{
+    padding:40px 0;
+}
+.img-bordered{
+    border:1px solid rgba(0,0,0,0.15);
+}
 .miframe{
     width: 100%;
     min-height: 215px;
@@ -177,6 +199,7 @@ article.panelPost{
 .green{
     color: $green;  
 }
+//Lazy Load with Unveil.js
 .lazy {
   opacity: 0;
   transition: opacity .3s ease-in;
