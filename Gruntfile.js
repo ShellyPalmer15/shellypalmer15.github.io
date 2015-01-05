@@ -416,7 +416,7 @@ module.exports = function(grunt) {
                     'concurrent:server',
                     'autoprefixer:server',
                     'connect:livereload',
-                    // 'browserSync',
+                    'browserSync',
                     'watch'
 
                 ]);
