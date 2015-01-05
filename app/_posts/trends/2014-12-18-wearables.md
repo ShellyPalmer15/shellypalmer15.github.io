@@ -2,6 +2,7 @@
 layout: trend
 title:  "Wearables"
 subtitle: Smartwatches, fitness trackers, and clothing 
+image: /img/bg--wearables.jpg
 date:   2014-12-18
 category: trend
 ---

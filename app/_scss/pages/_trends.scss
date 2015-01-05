@@ -9,21 +9,22 @@
 .jumbo-inner{
 	width:100%;
 	height:300px;
-	background-color: $grayDark;
+	background-color:  $darkBlue;
 	margin:40px 0;
 	text-shadow: 0;
 	h1.hero{
 		color:#fff;
 	}
 	&.jumbo--tablet{
-		background-color:$gray;
+		background-color: url("/img/bg--tablet.jpg") no-repeat center center;
+		background-size: cover;
+		
 	}
 	&.jumbo--tv{
-		background-color:$blue;
+		background-color: $darkBlue;
 	}
 	&.jumbo--gaming{
-    	background-color: $gray;
-	}
+    	background-color:  $darkBlue;	}
 	&.jumbo--autos{
     	background-color: $darkBlue;
 	}
