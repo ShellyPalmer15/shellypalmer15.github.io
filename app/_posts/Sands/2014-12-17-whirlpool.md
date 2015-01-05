@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Whirlpool Corporation"
-image: "/img/Whirlpool.jpg"
-cover: "/img/Whirlpool_cover.jpg"
+image: "/img/whirlpool.jpg"
+cover: "/img/whirlpool_cover.jpg"
 image-alt: "Whirlpool Corporation logo"
 location: Sands - 73937
 website: http://www.whirlpool.com

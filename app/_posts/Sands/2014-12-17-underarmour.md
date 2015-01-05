@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Under Armour"
-image: "/img/UnderArmour.jpg"
+image: "/img/underarmour.jpg"
 cover: "/img/UnderArmour_cover.jpg"
 image-alt: "Under Armour logo"
 location: Sands - 73915

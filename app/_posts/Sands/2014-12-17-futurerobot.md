@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Future Robot Co., Ltd."
+title:  "Future Robot"
 image: "/img/futurerobot.jpg"
 image-alt: "Future Robot Co., Ltd. logo"
 location: Sands - 72732

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FashionTEQ"
-image: "/img/FashionTEQ.jpg"
+image: "/img/fashionteq.jpg"
 cover: /img/fashionteq_cover.jpg
 image-alt: "FashionTEQ logo"
 location: Sands - 73835

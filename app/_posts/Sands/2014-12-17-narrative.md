@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Narrative"
-image: "/img/Narrative.jpg"
+image: "/img/narrative.jpg"
 cover: "/img/Narrative_cover.jpg"
 image-alt: "Narrative logo"
 location: Sands - 73532
