@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "First Alert"
-image: "/img/firstalert.jpg"
+image: "/img/FirstAlert.jpg"
 cover: /img/firstalert_cover.jpg
 image-alt: "First Alert logo"
 location: Sands - 70823
-website: http://www.Firstalert.com
+http://www.Firstalert.com
 date:   2014-12-17
 tags:
  - Sands

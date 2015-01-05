@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Matter & Form"
+title:  "Matter and Form"
 image: "/img/matterandform.jpg"
 cover: /img/matterandform_cover.jpg
 image-alt: "Matter and Form logo"

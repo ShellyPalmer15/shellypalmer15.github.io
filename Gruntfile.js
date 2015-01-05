@@ -160,7 +160,7 @@ module.exports = function(grunt) {
                                     "<%= yeoman.app %>"
                                 ]
                             },
-                            watchTask: false
+                            watchTask: true
                         }
                     }
                   },

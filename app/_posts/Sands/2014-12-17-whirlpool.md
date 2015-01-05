@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Whirlpool Corporation"
-image: "/img/whirlpool.jpg"
+image: "/img/Whirlpool.jpg"
 cover: "/img/Whirlpool_cover.jpg"
 image-alt: "Whirlpool Corporation logo"
 location: Sands - 73937

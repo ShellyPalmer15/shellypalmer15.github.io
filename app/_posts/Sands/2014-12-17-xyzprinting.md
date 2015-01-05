@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "XYZprinting"
-image: "/img/xyzprinting.jpg"
+image: "/img/XYZprinting.jpg"
 cover: /img/xyzprinting_cover.jpg
 image-alt: "XYZprinting logo"
 location: Sands - 71628
