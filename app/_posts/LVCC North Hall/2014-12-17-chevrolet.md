@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Chevrolet"
-image: "/img/Chevrolet.jpg"
-cover: /img/Chevrolet_cover.jpg
+image: "/img/chevrolet.jpg"
+cover: /img/chevrolet_cover.jpg
 image-alt: "Chevrolet logo"
 location: LVCC, North Hall - 2831
 website: http://www.chevrolet.com/
