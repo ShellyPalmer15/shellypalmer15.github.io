@@ -24,5 +24,11 @@ While the market for fitness trackers has exploded this past year, there is a di
 
 ##Health 
 The global medical wearable electronics market generated $2.8Bn in revenue in 2014. It is expected to cross $8.3 billion in 2019, growing at a healthy CAGR of 17.7% according to [Mordor Intelligence](http://mordorintelligence.com/product/global-wearable-market-growth-trends-and-forecasts-2014-2019/). These devices use high grade, medically precise sensors that are related to specific health conditions includeing heart conditions, diabetes, blood pressure and much more. The question will be how/if insurance companies and healthcare providers buy in to the devices for both prevention and treatment. 
+<nav>
+        <ul class="pager">
+    <li class="previous"><a href="/trend/2014/12/27/iot/"><span aria-hidden="true">&larr;</span> IoT</a></li>
+    <li class="next"><a href="/trend/2014/12/17/3D-Printing/">3D Printing<span aria-hidden="true">&rarr;</span></a></li>
+  </ul>
+</nav> 
 
  
