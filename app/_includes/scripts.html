@@ -14,7 +14,7 @@ window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.j
 {% if page.category == 'trend' %}
 <script>
     $(function(){
-    var COOKIE_NAME = 'splash5';
+    var COOKIE_NAME = 'splash3';
     $go = $.cookie(COOKIE_NAME);
     if ($go == null) {
              window.location.href = "/subscribe";
@@ -42,21 +42,12 @@ window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.j
 {% endif %}
 {% if page.title == 'subscribe' %}
 <script type="text/javascript">
-    var COOKIE_NAME = 'splash5';
+    var COOKIE_NAME = 'splash3';
     $go = $.cookie(COOKIE_NAME);
     function setCookie() {
         $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });
          window.location = "/trends";
     }
-    function valid(thisform){
-    if (formvalidation(thisform)==true){
-        setCookie();
-        return true;
-    }
-    else{
-        return false;
-    }
-}
 </script>
 {% endif %}
 
