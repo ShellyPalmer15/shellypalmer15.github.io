@@ -7,7 +7,7 @@ name: shellypalmer15.github.io
 description: ShellyPalmer CES 2015 Experience
 author:
   name: Jared Palmer
-  email: palmdeezy
+  email: jared@palmer.net
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
@@ -30,3 +30,4 @@ pygments: true
 excerpt_separator: "<!-- more -->"
 
 url: http://ces15.shellypalmer.com
+
