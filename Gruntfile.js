@@ -167,7 +167,7 @@ module.exports = function(grunt) {
                   uncss: {
                       dist: {
                         options: {
-                          stylesheets: ['../.tmp/concat/css/main.css']
+                          compress: true
                         },
                         files: {
                           '.tmp/concat/css/main.css': ['app/**/*.html']
@@ -451,7 +451,7 @@ module.exports = function(grunt) {
                 'concurrent:dist',
                 'useminPrepare',
                 'concat',
-                // 'uncss',
+                'uncss',
                 'autoprefixer:dist',
                 'cssmin',
                 'uglify',
