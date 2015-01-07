@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jared Palmer -- Designer & Deverloper -- @jaredpalmer
 
 # THANKS
 
-    <name>
+    
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
+    Yeoman, Grunt, Bower, NPM, Browsersync, Unveil.js
+
